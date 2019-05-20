@@ -4,7 +4,8 @@
 - If a get_temp request comes, then creates a random temperature result
 - And sends the result with the "house/sensor_result" header back
 - This simulator is running on a free tier amazon server(ec2-18-195-119-211.eu-central-1.compute.amazonaws.com) 
-- And you can send WebSocket requests to "house/sensor" channel to get a result
+- And you can send WebSocket requests to "house/sensor" header to get a result
+- Message Example: "house/sensor,get_temp"
 
 - Usage:
     ~~~~
