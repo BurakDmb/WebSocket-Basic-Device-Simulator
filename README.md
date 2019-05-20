@@ -10,7 +10,7 @@
     ~~~~
     git clone https://github.com/BurakDmb/WebSocket-Basic-Device-Simulator.git
     cd WebSocket-Basic_Device-Simulator
-    pip3 install paho-mqtt
+    pip3 install websockets
     python3 main.py
     ~~~~
 
