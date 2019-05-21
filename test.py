@@ -3,7 +3,7 @@ import websockets
 
 async def get_temp():
     async with websockets.connect(
-            'ws://localhost:8765') as websocket:
+            'ws://ec2-18-195-119-211.eu-central-1.compute.amazonaws.com:8765') as websocket:
         await websocket.send("house/sensor,get_temp")
 
         result = await websocket.recv()
